@@ -1,0 +1,38 @@
+.circle_dks_container {
+  position: absolute;
+  /* 脱离文档流 */
+  float: left;
+  cursor: pointer;
+}
+
+.circle_dks_resizable {
+  width: 15px;
+  height: 26px;
+  overflow: scroll;
+  resize: horizontal;
+  cursor: pointer;
+  opacity: 0;
+  min-width: 26px;
+  position: relative;
+  left: 5px;
+  border:1px solid red;
+}
+
+/* 更改拖拽图标的大小和父容器一样大 */
+.circle_dks_resizable::-webkit-scrollbar {
+  width: 15px;
+  height: 26px;
+  cursor: ew-resize;
+}
+
+/* 使用定位, 将容器定位到父容器的正中间, 跟着父容器的大小改变而改变 */
+.circle_dks_content {
+  margin-right: 0;
+  position: absolute;
+  top: 0;
+  /* 留出5px为了鼠标放上去可以显示拖拽 */
+  right: 0px;
+  bottom: 0;
+  left: 0;
+  background-color: orange;
+}

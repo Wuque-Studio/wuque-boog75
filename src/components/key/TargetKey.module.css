@@ -1,0 +1,134 @@
+.emptyKey {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px 5px 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  float: left;
+  padding: 1px;
+  position: relative;
+}
+
+.keycode {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-color: #ccc;
+  color: #2c3e50;
+  margin: 0 5px 5px 0;
+  border: 1px solid;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  float: left;
+  font-family: Roboto,sans-serif;
+  font-size: 0.61rem;
+  line-height: 11px;
+  white-space: pre-line;
+  padding: 1px;
+  position: relative;
+}
+.keycode2 {
+  width: 40px;
+  height: 40px;
+  background: #fff;
+  border-color: #ccc;
+  color: #2c3e50;
+  margin: 0 5px 5px 0;
+  border: 1px solid;
+  border-radius: 2px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  cursor: pointer;
+  float: left;
+  font-family: Roboto,sans-serif;
+  font-size: 0.61rem;
+  line-height: 11px;
+  white-space: pre-line;
+  padding: 1px;
+  position: relative;
+}
+.targetKey {
+  background: #404040;
+  color: #e0e0e0;
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 6px;
+  font-family: Montserrat,sans-serif;
+  font-size:  0.65rem;
+  -webkit-font-smoothing: antialiased;
+  line-height: 120%;
+  -webkit-box-shadow: 0px -1px 0px 3px inset rgba(0, 0, 0, 0.1), 0px 0px 0px 1px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 -1px 0 3px inset rgba(0, 0, 0, 0.1), 0 0 0 1px rgba(0, 0, 0, 0.3);
+  width: 40px;
+  height: 40px;
+}
+
+.drapover_keycode {
+  border: 2px solid rgba(255, 230, 0, 0.5);
+  -webkit-box-shadow: 0px -1px 0px 3px inset rgba(255, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 -1px 0 3px inset rgba(255, 0, 0, 0.1), 0 0 0 1px rgba(255, 0, 0, 0.3);
+}
+
+.drop_keycode {
+  border: 2px solid rgb(100, 255, 0);
+  -webkit-box-shadow: 0px -1px 0px 3px inset rgba(255, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 -1px 0 3px inset rgba(255, 0, 0, 0.1), 0 0 0 1px rgba(255, 0, 0, 0.3);
+}
+/* 设置rt时选中的键样式 */
+.selelcted_keycode {
+  border: 2px solid rgba(255, 230, 0, 0.5);
+  -webkit-box-shadow: 0px -1px 0px 3px inset rgba(255, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 -1px 0 3px inset rgba(255, 0, 0, 0.1), 0 0 0 1px rgba(255, 0, 0, 0.3);
+}
+.selelcted_keycode_hight {
+  border: 2px solid rgba(255, 230, 0);
+  -webkit-box-shadow: 0px -1px 0px 3px inset rgba(255, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 -1px 0 3px inset rgba(255, 0, 0, 0.1), 0 0 0 1px rgba(255, 0, 0, 0.3);
+  z-index: 999;
+}
+/* .selelcted_keycode_hight:hover {
+  border: 2px solid rgb(255, 0, 0);
+  -webkit-box-shadow: 0px -1px 0px 3px inset rgba(255, 0, 0, 0.1), 0px 0px 0px 1px rgba(255, 0, 0, 0.3);
+  box-shadow: 0 -1px 0 3px inset rgba(255, 0, 0, 0.1), 0 0 0 1px rgba(255, 0, 0, 0.3);
+  z-index: 999;
+} */
+
+.mouseover_keycode {
+  border: 1px solid rgb(96, 148, 234);
+  -webkit-box-shadow: 0px 0px 1px 1px  rgba(96, 148, 234, 0.6), 0 0 2px 2px rgba(240, 47, 194, 0.3);
+  box-shadow: 0px 0px 1px 1px  rgba(96, 148, 234, 0.6), 0 0 2px 2px rgba(240, 47, 194, 0.3);
+}
+.keydisabled{
+  background-color: red;
+}
+.muiboxBar {
+  scrollbar-color: black transparent; /* 滚动条的颜色和背景色 */
+  scrollbar-width: thin; /* 滚动条的宽度 */
+}
